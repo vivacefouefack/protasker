@@ -1,0 +1,41 @@
+.navbar {
+    height: 50px;
+    background-color: rgb(106, 116, 119);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #FFA500;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+a:active {
+    color: #FFA500;
+}
+

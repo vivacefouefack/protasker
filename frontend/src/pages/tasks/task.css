@@ -1,0 +1,11 @@
+.task{
+    margin: 10px;
+}
+
+.header{
+    margin-bottom: 10px;
+}
+
+.showNoTask,.showTable{
+    text-align: center;
+}
