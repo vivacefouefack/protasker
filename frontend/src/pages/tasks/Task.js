@@ -21,8 +21,8 @@ function Task() {
     const [tasks, setTasks] = useState([])
     const [users, setUser] = useState([])
     const [id, setId] = useState('')
-    const [keySearch, setKeySearch] = useState('viv')
-    const [status, setStatus] = useState([{ id: 0, name: "En cours" }, { id: 1, name: "Bloqué" }, { id: 2, name: "Terminé" }])
+    const [keySearch, setKeySearch] = useState('')
+    const status= useState([{ id: 0, name: "En cours" }, { id: 1, name: "Bloqué" }, { id: 2, name: "Terminé" }])
     const columns = [
         {
             name: "label",
@@ -205,7 +205,7 @@ function Task() {
             <DeleteTask modal={deletemodal} toggle={deletetoggle} id={id} deleteTask={deleteTask} />
             <div className="header">
                 <Button className="addButton" onClick={() => setModal(true)}>
-                    Ajouter une tache
+                    Ajouter une tâche
                 </Button>
             </div>
             <div className="showTable">
